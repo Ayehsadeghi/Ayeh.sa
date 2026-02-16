@@ -1,127 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VEGA AI Consultancy</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-<style>
-* {margin:0;padding:0;box-sizing:border-box;}
-body {font-family:'Inter',sans-serif;background:#0B1120;color:#E5E7EB;line-height:1.6;scroll-behavior:smooth;}
-header{padding:20px 8%;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid rgba(255,255,255,0.08);position:sticky;top:0;background:#0B1120;z-index:999;}
-.logo{font-size:22px;font-weight:700;letter-spacing:2px;}
-nav a{margin-left:25px;text-decoration:none;color:#9CA3AF;font-size:14px;transition:0.3s;}nav a:hover{color:#FFFFFF;}
-.container{padding:80px 8%;max-width:1200px;margin:auto;}
-h1,h2,h3,h4{color:#FFFFFF;}
-.subtitle{color:#9CA3AF;margin-bottom:50px;max-width:700px;}
-.section{margin-bottom:100px;}
-.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:60px;}
-.contact-info h3{margin-bottom:15px;font-size:18px;}
-.contact-info p{margin-bottom:20px;color:#9CA3AF;}
-form{display:flex;flex-direction:column;}
-input,textarea{margin-bottom:20px;padding:14px;border-radius:8px;border:1px solid rgba(255,255,255,0.1);background:#111827;color:#E5E7EB;font-size:14px;}
-textarea{resize:none;height:140px;}
-button{padding:14px;border:none;border-radius:8px;background:linear-gradient(135deg,#2563EB,#4F46E5);color:white;font-weight:600;cursor:pointer;transition:0.3s;}button:hover{opacity:0.85;}
-footer{padding:40px 8%;border-top:1px solid rgba(255,255,255,0.08);margin-top:80px;color:#6B7280;font-size:13px;text-align:center;}
-.card{background:#111827;padding:30px;border-radius:12px;}
-.card h4{font-size:20px;margin-bottom:15px;color:#FFFFFF;}
-.card p{color:#9CA3AF;margin-bottom:10px;}
-@media(max-width:900px){.grid-2{grid-template-columns:1fr;}}
-</style>
-</head>
-<body>
+<div style="width: 1280px; height: 720px; position: relative; overflow: hidden; background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #e0e0e0;">  
+  
+  <!-- Decorative Elements -->  
+  <div style="position: absolute; top: -100px; right: -100px; width: 500px; height: 500px; background: radial-gradient(circle, rgba(58, 134, 255, 0.15) 0%, transparent 70%); border-radius: 50%;"></div>  
+  <div style="position: absolute; bottom: -80px; left: -80px; width: 400px; height: 400px; background: radial-gradient(circle, rgba(138, 43, 226, 0.1) 0%, transparent 70%); border-radius: 50%;"></div>  
 
-<header>
-<div class="logo">VEGA AI</div>
-<nav>
-<a href="#home">Home</a>
-<a href="#services">Services</a>
-<a href="#case-studies">Case Studies</a>
-<a href="#about">About</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
+  <!-- Header Section -->  
+  <div style="padding: 60px 80px 40px;">  
+    <div style="display: flex; align-items: center; margin-bottom: 20px;">  
+      <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; display: flex; align-items: center; justify-content: center; margin-right: 25px; box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);">  
+        <i class="fa-solid fa-brain" style="font-size: 42px; color: #fff;"></i>  
+      </div>  
+      <div>  
+        <h1 style="font-size: 58px; font-weight: 700; margin: 0; color: #fff; text-shadow: 0 2px 10px rgba(0,0,0,0.3);">AI Consulting</h1>  
+        <p style="font-size: 24px; color: #a0c4ff; margin: 5px 0 0 0; font-weight: 500;">Intelligent Solutions for Modern Business</p>  
+      </div>  
+    </div>  
+  </div>  
 
-<div class="container" id="home">
-<h1>High-Performance Operational Systems with AI Acceleration</h1>
-<p class="subtitle">We engineer measurable results by optimizing your operational systems and integrating AI as your performance accelerator. Enterprise-ready solutions tailored for aviation, training, and operational-heavy businesses.</p>
-<button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Book Strategy Call</button>
-</div>
+  <!-- Main Content -->  
+  <div style="padding: 0 80px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px;">  
+    
+    <!-- Left Column: Key Services -->  
+    <div>  
+      <h2 style="font-size: 32px; color: #667eea; margin: 0 0 30px 0; font-weight: 600;">  
+        <i class="fa-solid fa-lightbulb" style="margin-right: 12px;"></i>What We Offer  
+      </h2>  
+      
+      <div style="space-y: 20px;">  
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 22px; border-radius: 12px; border-left: 4px solid #667eea; margin-bottom: 18px; backdrop-filter: blur(10px);">  
+          <div style="font-size: 22px; font-weight: 600; color: #fff; margin-bottom: 8px;">  
+            <i class="fa-solid fa-chart-line" style="color: #667eea; margin-right: 10px;"></i>Strategic AI Planning  
+          </div>  
+          <div style="font-size: 16px; color: #b8c5d6; line-height: 1.5;">Develop comprehensive AI strategies aligned with business goals</div>  
+        </div>  
 
-<div class="container section" id="services">
-<h2>Our Services</h2>
-<div class="grid-2">
-<div class="card">
-<h4>Operational System Design</h4>
-<p>Process Mapping, KPI Definition, Workflow Optimization, Tool Recommendation</p>
-<p>Deliverable: Fully optimized operational blueprint</p>
-<p>Expected ROI: 15–25% efficiency gain</p>
-</div>
-<div class="card">
-<h4>Performance Optimization</h4>
-<p>Monitoring Dashboards, Analytics & Reporting, Bottleneck Elimination, Continuous Improvement Loops</p>
-<p>Deliverable: Performance dashboard & action plan</p>
-<p>Expected ROI: 10–20% operational cost reduction</p>
-</div>
-<div class="card">
-<h4>AI Acceleration Layer</h4>
-<p>RPA, Predictive Analytics, Decision Support, Pilot Implementation</p>
-<p>Deliverable: AI-enhanced operational processes</p>
-<p>Expected ROI: 5–15% added value in process speed & accuracy</p>
-</div>
-</div>
-</div>
-
-<div class="container section" id="case-studies">
-<h2>Case Studies</h2>
-<div class="grid-2">
-<div class="card">
-<h4>Client: Aviation Operator</h4>
-<p>Situation: Manual flight scheduling, high delays</p>
-<p>Solution: Operational redesign + AI scheduling pilot</p>
-<p>Results: 30% reduction in delays, 20% staff efficiency improvement</p>
-</div>
-<div class="card">
-<h4>Client: Training Organization</h4>
-<p>Situation: Inefficient training assessment workflow</p>
-<p>Solution: Workflow optimization, AI-assisted reporting</p>
-<p>Results: 25% faster assessments, standardized KPI reporting</p>
-</div>
-</div>
-</div>
-
-<div class="container section" id="about">
-<h2>About VEGA AI</h2>
-<p>Founded by an expert with aviation and operational systems background, VEGA AI integrates AI as a strategic tool to accelerate performance. Our methodology focuses on system design, measurable results, and enterprise-grade execution.</p>
-</div>
-
-<div class="container section" id="contact">
-<h2>Contact Us</h2>
-<div class="grid-2">
-<div class="contact-info">
-<h3>Email</h3>
-<p>info@vegaai.agency</p>
-<h3>Business Focus</h3>
-<p>AI-Enhanced System Design, Performance Optimization, Operational Strategy</p>
-<h3>Response Time</h3>
-<p>Within 24 business hours</p>
-</div>
-<form action="https://formspree.io/f/mgebryqw" method="POST">
-<input type="text" name="name" placeholder="Full Name" required>
-<input type="email" name="email" placeholder="Business Email" required>
-<input type="text" name="company" placeholder="Company Name" required>
-<input type="text" name="role" placeholder="Role / Position" required>
-<input type="text" name="budget" placeholder="Estimated Budget" required>
-<input type="text" name="timeline" placeholder="Project Timeline" required>
-<textarea name="challenge" placeholder="Describe your main challenge or goal" required></textarea>
-<button type="submit">Request Strategy Call</button>
-</form>
-</div>
-</div>
-
-<footer>
-© 2026 VEGA AI Consultancy. All rights reserved.
-</footer>
-
-</body>
-</html>
+        <div style="background: rgba(255, 255, 255, 0.05); padding: 22px; border-
